@@ -1,0 +1,46 @@
+.bcolor {
+    background-color: rgb(0, 0, 0);
+}
+
+
+hr {
+    color: 1px solid gray;
+    background-color: black;
+}
+
+.founder {
+    color: gray;
+}
+
+.foot-footer p {
+    white-space: pre;
+}
+
+.nav_underline:hover {
+    text-decoration: underline;
+}
+
+.nav_underline_gray:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.nav_underline_gray {
+    color:gray;
+}
+
+.bi-arrow-right:hover {
+    transform: scale(1.2);
+}
+
+@media(max-width:500px) {
+    .test-div {
+        background-color: antiquewhite !important;
+    }
+}
+
+@media(max-width:500px) {
+    .test-div2 {
+        color: black !important;
+    }
+}
